@@ -1,0 +1,6 @@
+# ignores all files starting with a dot
+# the goal with this is to ignore all executables which i always create starting with a dot
+.**
+
+# but gitignore should not be ignored
+!.gitignore
