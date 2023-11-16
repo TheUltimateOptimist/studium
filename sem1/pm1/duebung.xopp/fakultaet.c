@@ -18,8 +18,7 @@ int main() {
     scanf("%u", &input);
     unsigned long long solution = 1LLU;
     while (input > 0) {
-        solution*=input;
-        input--;
+        solution*=input--;
     }
     printf("Ergebnis: %llu\n", solution);
     // if (solution > 2147483647LLU) {
