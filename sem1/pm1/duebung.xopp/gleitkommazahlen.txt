@@ -1,0 +1,17 @@
+Es faellt auf, dass 0.1 + 0.2 == 0.3 false ergibt. 
+Dies liegt daran, dass 0.1 und 0.2 in Gleitkommazahlen nicht praezise dargestellt werden koennen,
+weshalb deren Ergebnis auch nicht praezise 0.3 ergibt.
+
+n = 10.000 → 9, 7876060360443822
+float: 9.7876129150390625
+double: 9.7876060360443482
+
+n = 100.000 → 12, 0901461298634279
+float: 12.0908508300781250
+double: 12.0901461298633350
+
+n = 1.000.000 → 14, 3927267228657236
+float: 14.3573579788208008
+double: 14.3927267228649889
+
+Es faellt auf, dass die double werte wesentlich praeziser sind als die float werte.
