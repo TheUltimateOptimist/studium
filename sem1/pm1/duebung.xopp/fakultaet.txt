@@ -1,3 +1,2 @@
 unsigned int / int -> bis einschliesslich n = 12
-long long -> bis einschliesslich n = 20
-unsigned long long -> bis einschliesslich n = 22
+long long / unsigned long long -> bis einschliesslich n = 20
