@@ -1,0 +1,51 @@
+Aufgabe 2(gewinn):
+Der Term (a == b) + (b == c) + (a == c) ergibt 0, 
+wenn a,b,c unterschiedlich sind, 1 wenn zwei variablen
+gleich sind und 3 wenn alle gleich sind.
+Diese drei Werte muss ich jetzt irgendwie auf 0, 10 und 20 abbilden.
+Dafuer addiere ich 1 dazu und erhalte somit 1, 2 und 4.
+Anschliesslich teile ich alle mit ganzzahliger Division durch 2 und 
+erhalte 0, 1, 2. Jetzt muss ich nur noch mit 10 multiplizieren und 
+erhalte 0, 10 und 20 wie laut Aufgabe gefordert.
+
+Aufgabe 3(runde):
+runde10:
+Zuerste rechne ich n / 10 * 10, um die Zahl auf den
+naechsten unteren vollen Zehner zu bringen. Dazu addiere ich
+dann 10*(n % 10 > 4). n % 10 > 4 ueperprueft ob aufgerundet werden muss.
+Wenn ja ergibt  der Ausdruck 1 und mit 10 multiplieziert dann 10.
+Wenn nein ergibt der Ausdruck 0, was mit 10 multipliziert immer noch
+0 ergibt. 
+D.h. n / 10 * 10 wuerde immer abrunden. Deswegen addiere ich noch 10*(n % 10 > 4)
+dazu, was immer 10 ergibt wenn aufgerundet werden muss und sonst 0 ergibt.
+
+Aufgabe 4(gcd):
+Mit Hilfe von Rekursion und dem ternaeren Operator
+wird der Algorithmus wie in der Aufgabenstellung beschrieben durchgefuehrt.
+
+Aufgabe 5(kgv):
+trivial
+
+Aufgabe 6(mauern):
+Bedeutung von Teilausdruecken:
+klein / 5
+-> Zahl der grossen Stueck, die man aus den kleinen 
+zusammenlegen kann
+gross + klein / 5
+-> Zahl der grossen Stuecke, die insgesamt verfuegbar sind,
+wenn man so viele kleine wie  moeglich in grosse verwandelt
+ziel / 5
+-> Zahl der noetigen grossen Stuecke
+gross + klein / 5 >= ziel / 5
+-> linke Seite der Und-Verknuepfung ueberprueft, ob
+die Zahl der verfuegbaren grossen Stuecke, wenn man 
+so viele kleine wie moeglich in grosse verwandelt ausreicht
+klein - klein / 5
+-> Zahl kleinen Stuecke nachdem man so viel wie moeglich in grosse
+verwandelt hat
+ziel % 5
+-> Zahl der benoetigten kleinen Stuecke
+klein - klein / 5 >= ziel % 5
+-> rechte Seite des undes ueberprueft, ob die Zahl der
+kleinen Stuecke nachdem man so viele wie moeglich in
+grosse verwandelt hat ausreicht

@@ -10,10 +10,10 @@ int main() {
     scanf("%d", &b);
 
     //a und b duerfen nicht 0 sein
-    if (a == 0 || b == 0){
-        printf("a und b duerfen nicht 0 sein!\n");
-        return 0;
-    } 
+    //if (a == 0 || b == 0){
+    //    printf("a und b duerfen nicht 0 sein!\n");
+    //    return 0;
+    //} 
     //betrag auf a und b anwenden
     a = a >= 0 ? a : -a;
     b = b >= 0 ? b : -b;
