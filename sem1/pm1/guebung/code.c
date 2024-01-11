@@ -23,6 +23,20 @@ void quad(char art[], int width) {
     art[index] = '\0';
 }
 
+int quad_corrected(char art[], int width) {
+    int index = 0;
+    for (int i = 0; i < width; i++) {
+        for (int j = 0; j < width; j++) {
+            art[index] = 'X';
+            index++;
+        }
+        art[index] = '\n';
+        index++;
+    }
+    art[index] = '\0';
+    return index + 1;
+}
+
 void dreieck(int anz_zeilen) {
     if (anz_zeilen == 0) {
         return;
