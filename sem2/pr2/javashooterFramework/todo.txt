@@ -1,0 +1,41 @@
+z-buffering regeln für alle Objekte!
+Dafür: Objektgeruppen einrichten, charaktisiert durch "int"
+a) int Playground.registerObjectGroup(String)
+b) int Playground.getObjectGroupID(String)
+c) LinkedList<GameObject> Playground.getObjectGroup(int/String)
+d) Playground.setObjectGroupZ(int, int)
+e) Playground.addObjectToGroup(String, GameObject)
+- Alle Objekte in einer group haben gleiches Z
+Bisherige Objektliste bleibt natürlich, dort kann jedes Objekt andere Zs haben! 
+
+framerate-rte fixen
+
+load/save: alle relevanten Level-Zustandsvariablen müssen flags sein.
+Ebenso Zustandsvariablen in Artists, Controllern und XXX. 
+Gametime muss auch gespeichert werden!
+Ressourcen müssen über Flags gespeichert werden damit sie beim Laden wieder zur Verfügung stehen! 
+
+Neue spiele: lemmings, donkey kong, alley cats, last eichhof, cosmo mit panning
+
+javashooter.controller: mehrere javashooter.controller möglich, letzter hat letztes Wort.
+ein javashooter.controller-typ sollte ein collisionController sein, der
+so etwas wie eine physics-engine baut: bei kollisionen mit anderen
+pyhsiks-Objekten sorgt er für a) abprallen b) stop abhängig von bestimmten Konstanten
+Gravity-Controller auch möglich!
+
+panning!!Simpel per setviewport-javashooter.controller, der zB den viewport des 
+Canvas so setzt dass er auf Ego-Objekt oder aktuellen Ausschnitt zentriert ist.
+Dann müssten weitere Controller regeln, dass bestimmte Objekte aktiviert oder deaktiviert werden
+falls das Ego-Objekt in der Nähe ist. 
+
+
+nachdenken & doku: levelController, wie werden tastendrücke verwaltet? das mit den flags scheint mir ganz ok zu sein...
+mapping zwischen tastendrücken und flag-namen ermöglichen so dass tastendrücke symbolische namen tragen
+
+doku: was ist Bedeutung von Koordinaten?
+
+zwischenscreens als dummy-Level: Parent-Klasse dafür erstellen!
+
+
+
+
