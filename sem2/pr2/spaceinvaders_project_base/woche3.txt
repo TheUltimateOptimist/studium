@@ -1,4 +1,4 @@
-Aufgabe 6:
+Aufgabe 6: 221-224
 Kann zu Fehlern fuehren, bspw. aendere ich Klassenvariable von der neuen durch kopieren entstandenen Klasse, aber an anderen Stellen werden noch die Klassenvariablen von der alten Klasse verwendet.
 Wartung/Erweiterung des Codes gefaehrlicher -> Aenderungen muessen an zwei Stellen durchgefuehrt werden, eine kann vergessen werden
 sehr viel mehr code als bei alternativen Erweiterungsmethoden -> mehr Komplexitaet
