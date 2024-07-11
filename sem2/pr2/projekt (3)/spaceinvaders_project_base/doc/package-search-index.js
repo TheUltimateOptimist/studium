@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"spaceinvadersProject"},{"l":"spaceinvadersProject.controller"},{"l":"spaceinvadersProject.gameobjects"},{"l":"spaceinvadersProject.playground"}];updateSearchResults();

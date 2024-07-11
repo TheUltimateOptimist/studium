@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blogeintrag erstellen</title>
+</head>
+<body>
+    <h1>Erstellen Sie einen neuen Blogeintrag</h1>
+    <form action="/blog" method="POST">
+        <div>
+            <label for="title">Titel:</label>
+            <input type="text" id="title" name="title" required>
+        </div>
+        <div>
+            <label for="username">Benutzername:</label>
+            <input type="text" id="username" name="username" required>
+        </div>
+        <div>
+            <label for="date">Datum:</label>
+            <input type="date" id="date" name="date" required>
+        </div>
+        <div>
+            <label for="text">Text:</label>
+            <textarea id="text" name="text" rows="10" required></textarea>
+        </div>
+        <div>
+            <label for="file">Datei:</label>
+            <input type="file" id="file" name="file">
+        </div>
+        <div>
+            <button type="submit">Absenden</button>
+        </div>
+    </form>
+</body>
+</html>

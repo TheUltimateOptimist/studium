@@ -1,0 +1,50 @@
+Jun 25, 2024 3:21:10 PM org.apache.aries.spifly.BaseActivator log
+INFO: Registered provider ch.qos.logback.classic.spi.LogbackServiceProvider of service org.slf4j.spi.SLF4JServiceProvider in bundle ch.qos.logback.classic
+15:21:11.557 [Start Level: Equinox Container: d7753222-e3c3-4a05-aa75-6e863b59774e] DEBUG org.eclipse.jgit.internal.util.ShutdownHook -- register org.eclipse.jgit.util.FS$FileStoreAttributes$$Lambda$161/0x00000001002683f8@1c14f29e with shutdown hook
+15:21:11.557 [Start Level: Equinox Container: d7753222-e3c3-4a05-aa75-6e863b59774e] DEBUG org.eclipse.jgit.internal.util.ShutdownHook -- register org.eclipse.jgit.util.FS$FileStoreAttributes$$Lambda$161/0x00000001002683f8@1c14f29e with shutdown hook
+15:21:14.232 [main] DEBUG org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob -- Queued refresh request: [/javashooterFramework/pom.xml, /spaceinvaders_project_base/pom.xml, /w9/pom.xml]
+15:21:14.232 [main] DEBUG org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob -- Queued refresh request: [/javashooterFramework/pom.xml, /spaceinvaders_project_base/pom.xml, /w9/pom.xml]
+Jun 26, 2024 5:48:56 PM org.apache.aries.spifly.BaseActivator log
+INFO: Registered provider ch.qos.logback.classic.spi.LogbackServiceProvider of service org.slf4j.spi.SLF4JServiceProvider in bundle ch.qos.logback.classic
+17:48:57.735 [Start Level: Equinox Container: a69fe42f-ba41-4e76-8a52-4229b4c23db2] DEBUG org.eclipse.jgit.internal.util.ShutdownHook -- register org.eclipse.jgit.util.FS$FileStoreAttributes$$Lambda$161/0x00000001002683f8@31a1c33f with shutdown hook
+17:48:57.735 [Start Level: Equinox Container: a69fe42f-ba41-4e76-8a52-4229b4c23db2] DEBUG org.eclipse.jgit.internal.util.ShutdownHook -- register org.eclipse.jgit.util.FS$FileStoreAttributes$$Lambda$161/0x00000001002683f8@31a1c33f with shutdown hook
+17:49:01.647 [main] DEBUG org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob -- Queued refresh request: [/javashooterFramework/pom.xml, /spaceinvaders_project_base/pom.xml, /w9/pom.xml]
+17:49:01.647 [main] DEBUG org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob -- Queued refresh request: [/javashooterFramework/pom.xml, /spaceinvaders_project_base/pom.xml, /w9/pom.xml]
+
+(Eclipse:75295): Gtk-CRITICAL **: 17:51:45.422: gtk_box_gadget_distribute: assertion 'size >= 0' failed in GtkScrollbar
+
+(Eclipse:75295): Gtk-CRITICAL **: 17:55:03.421: gtk_box_gadget_distribute: assertion 'size >= 0' failed in GtkScrollbar
+
+(Eclipse:75295): Gtk-CRITICAL **: 17:55:03.423: gtk_box_gadget_distribute: assertion 'size >= 0' failed in GtkScrollbar
+
+(Eclipse:75295): Gtk-CRITICAL **: 17:55:03.448: gtk_box_gadget_distribute: assertion 'size >= 0' failed in GtkScrollbar
+
+(Eclipse:75295): Gtk-CRITICAL **: 17:55:03.463: gtk_box_gadget_distribute: assertion 'size >= 0' failed in GtkScrollbar
+
+(Eclipse:75295): Gtk-CRITICAL **: 17:55:03.480: gtk_box_gadget_distribute: assertion 'size >= 0' failed in GtkScrollbar
+
+(Eclipse:75295): Gtk-CRITICAL **: 17:55:03.498: gtk_box_gadget_distribute: assertion 'size >= 0' failed in GtkScrollbar
+
+(Eclipse:75295): Gtk-CRITICAL **: 17:55:03.516: gtk_box_gadget_distribute: assertion 'size >= 0' failed in GtkScrollbar
+
+(Eclipse:75295): Gtk-CRITICAL **: 17:55:03.533: gtk_box_gadget_distribute: assertion 'size >= 0' failed in GtkScrollbar
+
+(Eclipse:75295): Gtk-CRITICAL **: 17:55:03.545: gtk_box_gadget_distribute: assertion 'size >= 0' failed in GtkScrollbar
+
+(Eclipse:75295): Gtk-CRITICAL **: 17:55:03.564: gtk_box_gadget_distribute: assertion 'size >= 0' failed in GtkScrollbar
+
+(Eclipse:75295): Gtk-CRITICAL **: 17:55:03.580: gtk_box_gadget_distribute: assertion 'size >= 0' failed in GtkScrollbar
+
+(Eclipse:75295): Gtk-CRITICAL **: 17:55:03.597: gtk_box_gadget_distribute: assertion 'size >= 0' failed in GtkScrollbar
+
+(Eclipse:75295): Gtk-CRITICAL **: 17:55:03.613: gtk_box_gadget_distribute: assertion 'size >= 0' failed in GtkScrollbar
+
+(Eclipse:75295): Gtk-CRITICAL **: 17:55:03.631: gtk_box_gadget_distribute: assertion 'size >= 0' failed in GtkScrollbar
+
+(Eclipse:75295): Gtk-CRITICAL **: 17:55:03.647: gtk_box_gadget_distribute: assertion 'size >= 0' failed in GtkScrollbar
+
+(Eclipse:75295): Gtk-CRITICAL **: 17:55:03.664: gtk_box_gadget_distribute: assertion 'size >= 0' failed in GtkScrollbar
+
+(Eclipse:75295): Gtk-CRITICAL **: 17:55:03.676: gtk_box_gadget_distribute: assertion 'size >= 0' failed in GtkScrollbar
+
+(Eclipse:75295): Gtk-CRITICAL **: 17:55:03.693: gtk_box_gadget_distribute: assertion 'size >= 0' failed in GtkScrollbar
