@@ -1,0 +1,90 @@
+Was ist ueberhaupt ein ERP?
+Laut SAP ist ein ERP ("Enterprise Resource Planning (ERP)) ist ein Softwaresystem,
+das Unternehmen bei der Rationalisierung ihrer zentralen Geschäftsprozesse – einschließlich Finanzen,
+Personalwesen, Fertigung, Lieferkette, Vertrieb und Beschaffung –
+mit einer einheitlichen Sicht auf die Aktivitäten unterstützt
+und eine zentrale Datenquelle bietet.
+
+Was heisst das konkret?
+In unserer Praesentation steht SAP im Fokus.
+In der Grafik sehen wir SAP S/4 Hana mit seinen unterschiedlichen bereits integrierten Modulen,
+die bereits die zentralen Geschaeftsprozesse abdecken.
+Wir haben hier ein einheitliches System mit einer zentralen Datenquelle und den folgenden Geschaeftsbereiche.
+Fuer Beschaffung, das Modul MM.
+Fuer Vertrieb, das Modul SD.
+Fuer Produktion, das Modul PP.
+Und fuer Finanzen das Modul FI.
+
+Das Modul MM (Material Mnagement) ist das zentrale Modul fuer P2P.
+Es verwaltet die Prozesse rund um Beschaffung und Lagerhaltung von Materialien.
+Ausserdem wird es fuer Funktionen genutzt wie:
+Einkauf, Lagerverwaltung, Bestandsfuehrung und Rechnungspruefung.
+Rechnungspruefung bedeutet zu ueberpruefen, ob die aufgegebene Bestellung, die
+Rechnung des Lieferanten und die Wareneingaenge uebereinstimmen.
+Was Stammdaten angeht, koennen mit dem Modul MM unter anderem Lieferanten- und Materialstammdaten
+verwaltet werden.
+Generell kann man sagen,
+Mit Hilfe des Moduls MM, koennen Unternehmen sicherstellen, dass es nicht zu einem
+Mangel an Materialien kommt und der Bereitstellungs- und Lieferungsprozess nie unterbrochen wird.
+
+Weiterhing das Modul PP (Production Planing) beantwortet folgende Frage:
+Was produzieren und wann ungefaehr?
+Es dient zur Planung und Steuerung von Produktionsprozessen.
+Und  hilft ausserdem bei der Ressourcenplanung und Ueberwachung von Produktionsprozessen
+Mit SAP PP laeest sich langfristige Planung bis zur detaillierten Maschinensteuerung abbilden.
+Es ist zusaetzlich eng integriert mit den anderen Modulen wie MM und SD.
+
+Als zentrales Vertriebsmodul haben wir SD (Sales & Distribution)
+Es ist das zentrale Modul fuer 02C.
+Es unterstuetzt bei der Abwicklung von Verkaufprozessen.
+D.h. zuerst einmal die Auftragserfassung, dann die Angebotserstellung und schlussendlich auch 
+die Auslieferung und REchnungsstellung.
+
+Jedes unternehmen brauch natuerlich auch Finanzen und Controlling.
+Dafuer dient das SAP Modul FI (Financial Accounting)
+Es ist das zentrale Modul fuer das externe Rechnungswesen.
+Es unterstuetzt den folgenden Aufgaben:
+Buchhaltung, Debitoren- und Kreditorenverwaltung, Rechnungsverbuchung, Zahlungsverkehr und Jahresabschluss
+
+-------------------------------------------------------------------
+
+Oft werden ERP Systeme wie S/4 Hana noch durch weitere spezialisierte Systeme fuer bestimmte Geschaeftsbereiche ergaenzt.
+Im Zentrum steht dann natuerlich weiter hin als Herz das ERP System selbser mit:
+den zentralen Stammdaten
+Und den intergrierten Geschaeftsprozessen.
+Drum herum lassen sich allerdings noch 3 weitere System ergaenzen.
+
+Zuerst einmal haben wir das WMS (Warehouse Management System).
+Es ist ein auf das Lager spezialisiertes System, das die dortigen Ablaeufe abbildet und steuert.
+Alles von Eintreffen der Ware bis zum Versand.
+
+------------------------------------------------------------------
+Weiterhin wird oft auch noch ein eigenes TMS (Transport Mnagement System) eingesetzt.
+ES behandelt alles rund herum um das Thema TRansporte.
+Deren Planung und Verwaltung.
+
+--------------------------------------------------------------
+Ausserdem gibt es spezialisierte APS Systeme (Advanced Planing und Scheduling)
+Es dient dazu Prozesse in Produktion und LOgistik zu optimieren.
+Also z.B. so Fragen wie was wann wo wie Produzieren, um die beste Auslastung zu erhalten.
+
+Diese Grafik ist erstmal allgemein fuer ERPs.
+Speziell fuer SAP, sieht das wie folgt aus:
+
+Als EWM gibt es in der SAP Landschaft SAP EWM kurz fuer Extended Warehouse Mangement.
+Es enthaelt erweiterte Funktionen zur Lagerverwaltung.
+Es unterstuetzt Komplexe Logistik und Lagerprozesse.
+Und unterstuetzt ausserdem die automatisierte Lagersteuerung.
+SAP EWM beschaeftigt sich detailliert mit dem Aufbau des Lagers und wie was eingelagert und
+bewegt wird.
+
+SAP TM (Transport Management) ist das SAP TM System.
+Es wird genutzt um Transporte entlang der Lieferkette zu planen, durchzufuehren, zu ueberwachen und abzurechnen.
+
+
+Als Advanced Planing und Scheduling System gab frueher SAP APO (Advanced Planing und Optimization) seperat.
+Mittlerweilse ist es mit dem Modul PP DS zentraler Bestandteil des ERP Systems.
+PP DS Kurzform fuer Production Planing und Detailed Scheduling.
+Es beantwortet Fragen wie Wann genau, auf welcher Maschine was produzieren?
+Kurz es uebernimmt die Feinplanung und Terminierung.
+Es ubernimnmt ebenfalls das Engpassmanagement.
